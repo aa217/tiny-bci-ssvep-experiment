@@ -39,10 +39,10 @@ void onTrialEnd(uint16_t nextTarget)
 
 int main(int argc, char *argv[])
 {
-    const float frequencies[N_FREQS] = {7.5f, 8.57f, 10.0f, 12.0f}; //15, 10, 12, 8.5
+    const float frequencies[N_FREQS] = {6.67f, 7.50f, 8.57f, 11.00f}; //15, 10, 12, 8.5
     const float trialDuration = 20.0f;
     const float breakDuration = 3.0f;
-    const float selectionDisplayConfidenceThreshold = 0.99f;
+    const float selectionDisplayConfidenceThreshold = 0.85f;
 
     initializeTrialConductor(N_FREQS, trialDuration, breakDuration, onTrialStart, onTrialEnd);
     initializePresentation(frequencies, N_FREQS);
