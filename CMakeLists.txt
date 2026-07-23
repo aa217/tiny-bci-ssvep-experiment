@@ -40,6 +40,7 @@ add_executable(${PROJECT_NAME}
     src/data/neuropawn_eeg_source.c
     src/data/unicorn_eeg_source.c
     thirdparty/tiny_bci/producer/tbci_trigger_generator.c
+    thirdparty/tiny_bci/producer/neuropawn_producer.c
     thirdparty/tiny_bci/producer/unicorn_producer.c
 )
 set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_WARNING_AS_ERROR ON)

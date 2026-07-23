@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     if (startTinyBCIPipeline()) return EXIT_FAILURE;
     printf("---\nTiny BCI Pipeline Running.\n\n");
 
-    connectNeuropawnEEGSource(PORT, NEUROPAWN_DEFAULT_CONFIGURATION);
+    connectNeuropawnEEGSource(PORT);
     resetNeuropawnEEGSource();
 
     /* settle filter with real data before starting trials */
