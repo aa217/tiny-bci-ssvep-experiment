@@ -87,7 +87,6 @@ void setTinyBCIPipelineConfiguration()
     tbciConfiguration.use_feature_extraction = true;
     tbciConfiguration.use_decoder = true;
     tbciConfiguration.log_enabled = true; /* set true to enable CSV logging */
-    tbciConfiguration.log_processed = false; /* set true to enable logging of preprocessed data for debugging */
     tbciConfiguration.log_subject[0] = '\0';
     tbciConfiguration.log_session[0] = '\0';
 }

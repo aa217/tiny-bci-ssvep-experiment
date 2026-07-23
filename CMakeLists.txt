@@ -25,7 +25,7 @@ endif()
 
 
 add_executable(${PROJECT_NAME}
-    src/main.c
+    src/main.c #change with neuropawn.c for neuropawn experiment
     src/trial_conductor.c
     src/presentation.c
     src/microsecond_timer.c
