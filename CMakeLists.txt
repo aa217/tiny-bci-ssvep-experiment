@@ -25,7 +25,7 @@ endif()
 
 
 add_executable(${PROJECT_NAME}
-    src/main.c #change with neuropawn.c for neuropawn experiment
+    src/main_neuropawn.c #swap for src/main_unicorn.c or src/main_neuropawn.c to run on hardware
     src/trial_conductor.c
     src/presentation.c
     src/microsecond_timer.c
