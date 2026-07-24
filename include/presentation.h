@@ -1,10 +1,10 @@
 # pragma once
 # include "raylib.h"
 
-# define RENDER_WIDTH 1200
-# define RENDER_HEIGHT 800
-# define MINIMUM_WINDOW_WIDTH 600
-# define MINIMUM_WINDOW_HEIGHT 400
+# define RENDER_WIDTH 400
+# define RENDER_HEIGHT 300
+# define MINIMUM_WINDOW_WIDTH 400
+# define MINIMUM_WINDOW_HEIGHT 300
 
 # define ROW_COUNT 2
 # define MARGIN_TOP 100
