@@ -1,5 +1,6 @@
 # include "pipeline.h"
 #include <sys/time.h>
+#include <time.h>
 # include "data/eeg_source.h"
 # include "data/trigger_source.h"
 
